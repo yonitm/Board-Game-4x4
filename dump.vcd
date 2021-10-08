@@ -1,0 +1,202 @@
+$date
+	Fri Oct  8 14:43:01 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module Earned_Prizes_TB $end
+$var wire 4 ! prize_TB [3:0] $end
+$var wire 4 " new_place_TB [3:0] $end
+$var wire 6 # earned_TB [5:0] $end
+$var reg 1 $ clk_TB $end
+$var reg 2 % direction_TB [1:0] $end
+$var reg 1 & reset_TB $end
+$scope module earned_DUT $end
+$var wire 1 $ clk $end
+$var wire 2 ' direction [1:0] $end
+$var wire 1 & reset $end
+$var wire 2 ( y [1:0] $end
+$var wire 2 ) x [1:0] $end
+$var wire 4 * prize [3:0] $end
+$var wire 4 + new_place [3:0] $end
+$var reg 6 , earned [5:0] $end
+$scope module current_prize $end
+$var wire 1 $ clk $end
+$var wire 1 & reset $end
+$var wire 2 - y [1:0] $end
+$var wire 2 . x [1:0] $end
+$var wire 4 / new_place [3:0] $end
+$var reg 16 0 board [15:0] $end
+$var reg 4 1 prize [3:0] $end
+$upscope $end
+$scope module next_place $end
+$var wire 1 $ clk $end
+$var wire 2 2 direction [1:0] $end
+$var wire 1 & reset $end
+$var reg 4 3 new_place [3:0] $end
+$var reg 2 4 x [1:0] $end
+$var reg 2 5 y [1:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 5
+b0 4
+bx 3
+b11 2
+bx 1
+b0 0
+bx /
+b0 .
+b0 -
+b0 ,
+bx +
+bx *
+b0 )
+b0 (
+b11 '
+0&
+b11 %
+0$
+b0 #
+bx "
+bx !
+$end
+#1000
+1&
+#5000
+b0 !
+b0 *
+b0 1
+b0 "
+b0 +
+b0 /
+b0 3
+b1 )
+b1 .
+b1 4
+1$
+#10000
+0$
+b1 %
+b1 '
+b1 2
+#15000
+b1 #
+b1 ,
+b1 "
+b1 +
+b1 /
+b1 3
+b1 (
+b1 -
+b1 5
+b1 0
+b1 !
+b1 *
+b1 1
+1$
+#20000
+0$
+b10 %
+b10 '
+b10 2
+#25000
+b11 #
+b11 ,
+b11 0
+b10 !
+b10 *
+b10 1
+b101 "
+b101 +
+b101 /
+b101 3
+b0 )
+b0 .
+b0 4
+1$
+#30000
+0$
+b0 %
+b0 '
+b0 2
+#35000
+b100 #
+b100 ,
+b100 "
+b100 +
+b100 /
+b100 3
+b0 (
+b0 -
+b0 5
+b100011 0
+b1 !
+b1 *
+b1 1
+1$
+#40000
+0$
+b11 %
+b11 '
+b11 2
+#45000
+b110011 0
+b0 !
+b0 *
+b0 1
+b0 "
+b0 +
+b0 /
+b0 3
+b1 )
+b1 .
+b1 4
+1$
+#50000
+0$
+b1 %
+b1 '
+b1 2
+#55000
+b1 "
+b1 +
+b1 /
+b1 3
+b1 (
+b1 -
+b1 5
+1$
+#60000
+0$
+b0 %
+b0 '
+b0 2
+#65000
+b101 "
+b101 +
+b101 /
+b101 3
+b0 (
+b0 -
+b0 5
+1$
+#70000
+0$
+#75000
+b1 "
+b1 +
+b1 /
+b1 3
+b11 (
+b11 -
+b11 5
+1$
+#80000
+0$
