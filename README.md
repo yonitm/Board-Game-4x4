@@ -1,3 +1,4 @@
+# Project Description
 This project contains an implementation via Logisim and its conversion to Verilog HDL. Note that in the Verilog HDL implementation, the game can be reset by using the "reset" signal.
 
 This is a board game: the player collects prizes over a board in size 4x4.
